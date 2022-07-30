@@ -9,7 +9,7 @@ public class IndexController {
 	
 	@GetMapping(value="/index")
 	public String index(Model model) {
-		model.addAttribute("titulo", "titulo desde java"); 
+		model.addAttribute("titulo", "titulo desde java con cambios"); 
 		return "index" ;
 	}
 
